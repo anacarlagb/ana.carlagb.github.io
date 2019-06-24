@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A Quantitative Study on Characteristics and Effect of Batch Refactoring on Code Smells</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('body').scrollspy({
+			target : '#mainNavBar'
+		})
+	});
+</script>
+
+</head>
+<body>
+
+	<nav id="mainNavBar" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">ESEM 2019</a>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse"
+				id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#abstract">Abstract <span
+							class="sr-only">(current)</span></a></li>
+
+					<li><a href="#downloads">Downloads</a></li>
+					<li><a href="#authors">Authors</a></li>
+					<!--<li><a href="#references">References</a></li>-->
+
+				</ul>
+
+			</div>
+			<!-- /.navbar-collapse -->
+		</div>
+		<!-- /.container-fluid -->
+	</nav>
+
+
+	<div class="container container-gral">
+
+		<div class="page-title">
+			<h1>
+				A Quantitative Study on Characteristics and Effect of Batch Refactoring on Code Smell <br>
+			</h1>
+		</div>
+		<br>
+		<p class="text-justify">
+			This website contains complementary data to the
+			<!--submitted-->
+			paper.
+		</p>
+
+		<h3 id="abstract" class="page-header">Abstract</h3>
+		<p class="text-justify">Background: Code refactoring aims to improve code structures
+		 via code transformations. A single transformation rarely suffices to fully remove code 
+		 smells that reveal poor code structures. Most transformations are applied in batches,
+		 i.e. sets of interrelated transformations, rather than in isolation. Nevertheless, empirical 
+		 knowledge on batch application, or batch refactoring, is scarce. Such scarceness helps 
+		 little to improve current refactoring practices. Aims: We analyzed 57 open and closed
+		 software projects. We aimed to understand batch application from two perspectives:
+		 characteristics that typically constitute a batch (e.g., the variety of transformation 
+		 types employed), and the batch effect on smells. Method: We analyzed 19 smell types 
+		 and 13 transformation types. We identified 4,607 batches, each applied by the 
+		 same developer on the same code element (method or class); we expected to have
+		 batches whose transformations are closely interrelated. We computed (1) the 
+		 frequency in which five batch characteristic manifest, (2) the probability of each batch
+		 characteristics to remove smells, and (3) the frequency in which batches introduce 
+		 and remove smells. Results: Most batches are quite simple: although most batches are applied 
+		 on more than one method (90%), they are usually composed of the same transformation type 
+		 (72%) and only two transformations (57%). Batches applied on a single method are 2.6 times 
+		 more prone to fully remove smells than batches affecting more than one method. Surprisingly,
+		 batches mostly ended up introducing (51%) or not fully removing (38%) smells. Conclusions:
+		 The batch simplicity suggests that developers have sub-explored the combinations 
+		 of transformations within a batch. We summarized some batches that may fully remove smells, 
+		 so that developers can incorporate them into current refactoring practices.</p>
+
+
+		<h3 id="downloads" class="page-header">Downloads</h3>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Artifact</th>
+					<th>Description</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			
+
+			</tbody>
+		</table>
+
+		<h3 class="page-header" id="authors">Authors</h3>
+
+		<p>Any questions and/or suggestions should be sent to the paper
+			authors as follows.</p>
+
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Name</th>
+					<th>E-mail</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				<tr>
+					<th scope="row">1</th>
+					<td>Ana Carla Bibiano</td>
+					<td>abibiano@inf.puc-rio.br</td>
+				</tr>
+
+			</tbody>
+
+
+			<tbody>
+				<tr>
+					<th scope="row">2</th>
+					<td>Eduardo Fernandes</td>
+					<td>emfernandes@inf.puc-rio.br</td>
+				</tr>
+
+			</tbody>
+
+			<tbody>
+				<tr>
+					<th scope="row">3</th>
+					<td>Daniel Oliveira</td>
+					<td>doliveira@inf.puc-rio.br</td>
+				</tr>
+
+			</tbody>
+
+			<tbody>
+				<tr>
+					<th scope="row">4</th>
+					<td>Alessandro Garcia</td>
+					<td>afgarcia@inf.puc-rio.br</td>
+				</tr>
+
+			</tbody>
+			
+				<tbody>
+				<tr>
+					<th scope="row">4</th>
+					<td>Marcos Kalinowski</td>
+					<td>kalinowski@inf.puc-rio.br</td>
+				</tr>
+
+			</tbody>
+
+			<tbody>
+				<tr>
+					<th scope="row">5</th>
+					<td>Baldoino Fonseca</td>
+					<td>baldoino@ic.ufal.br</td>
+				</tr>
+
+			</tbody>
+
+			<tbody>
+				<tr>
+					<th scope="row">6</th>
+					<td>Roberto Oliveira</td>
+					<td>rfelicio@inf.puc-rio.br</td>
+				</tr>
+
+			</tbody>
+
+			<tbody>
+				<tr>
+					<th scope="row">7</th>
+					<td>Anderson Oliveira</td>
+					<td>aoliveira@inf.puc-rio.br</td>
+				</tr>
+
+			</tbody>
+
+			<tbody>
+				<tr>
+					<th scope="row">8</th>
+					<td>Diego Cedrim</td>
+					<td>dccedrim@amazon.com</td>
+				</tr>
+
+			</tbody>
+
+
+		</table>
+
+
+
+		<!-- <h3 id="references" class="page-header">References</h3> -->
+</body>
+</html>
+
