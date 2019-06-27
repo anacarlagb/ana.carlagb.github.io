@@ -56,3 +56,9 @@
 					<td>This file contains the participant form results (In
 						portuguese).
 				</tr>
+
+
+First column presents the batch ID.
+					    Second column presents the hash of commits that complete a batch. Third column presents the number of commits that complete a batch. 
+						Fourth column presents the number of days between each pair of commits that complete a batch. Last column presents the number of days between 
+						the first commit and the last commit to complete a batch. In addition, we have calculated the Average, Standard Deviation, and Mode of distance between commits that complete a batch. 
